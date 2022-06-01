@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Your Content"
+        android:background="@color/themeColor"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        ></TextView>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/parent"
+        android:background="@color/whiteTextColor"
+        android:layout_margin="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Place Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:id="@+id/upplace"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/parent"
+        android:background="@color/whiteTextColor"
+        android:layout_margin="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Hotel Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:id="@+id/uphotel"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/parent"
+        android:background="@color/whiteTextColor"
+        android:layout_margin="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Duration"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:id="@+id/updura"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/parent"
+        android:background="@color/whiteTextColor"
+        android:layout_margin="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Total Cost"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:id="@+id/upcost"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/parent"
+        android:background="@color/whiteTextColor"
+        android:layout_margin="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Event Brif"
+            android:inputType="text"
+            android:id="@+id/upbrif"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_height="80dp">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/upbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/loginButton"
+        android:padding="6dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Submit" />
+
+
+</LinearLayout>

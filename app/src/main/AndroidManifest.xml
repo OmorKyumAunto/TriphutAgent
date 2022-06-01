@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.triphutagent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TripHutAgent">
+        <activity
+            android:name=".Notificantions.TourNotifications"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".EditOrUpdate.EditTour"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".TourView"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".View"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".TourHome"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".tourlogin"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Cardata"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Tourdata"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Admin"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TriphutAgent.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+    </application>
+
+</manifest>

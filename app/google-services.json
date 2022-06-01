@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "348775974676",
+    "firebase_url": "https://triphut457-9d645-default-rtdb.firebaseio.com",
+    "project_id": "triphut457-9d645",
+    "storage_bucket": "triphut457-9d645.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348775974676:android:fb1b4e32ab80f640fb2401",
+        "android_client_info": {
+          "package_name": "com.example.triphut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348775974676-a8dh15d19j5eqcgti0g83ql2blqi0s80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsjNDoYGVLYTWJ_vWNMB6xRq7bWKvHYUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348775974676-a8dh15d19j5eqcgti0g83ql2blqi0s80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348775974676:android:368b3057482014c0fb2401",
+        "android_client_info": {
+          "package_name": "com.example.triphutagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348775974676-a8dh15d19j5eqcgti0g83ql2blqi0s80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsjNDoYGVLYTWJ_vWNMB6xRq7bWKvHYUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348775974676-a8dh15d19j5eqcgti0g83ql2blqi0s80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

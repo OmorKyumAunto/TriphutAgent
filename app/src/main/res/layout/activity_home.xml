@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <RelativeLayout
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="32dp"
+           android:layout_marginRight="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="wrap_content"
+               android:text="Hello Agent"
+               android:textSize="22sp"
+               android:textColor="#FFFFFF"
+               android:layout_height="wrap_content"
+               ></TextView>
+           <TextView
+               android:layout_below="@+id/name"
+               android:layout_width="wrap_content"
+               android:text="its Your Panel"
+               android:textSize="18sp"
+               android:layout_marginTop="6dp"
+               android:textColor="#FFFFFF"
+               android:layout_height="wrap_content"
+               ></TextView>
+           <ImageView
+               android:id="@+id/livechat"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:layout_alignParentRight="true"
+               app:srcCompat="@drawable/online">
+
+           </ImageView>
+           
+       </RelativeLayout>
+
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:columnOrderPreserved="false"
+           android:alignmentMode="alignMargins"
+           android:layout_marginTop="65dp"
+           android:rowCount="3"
+           android:layout_gravity="center"
+           android:columnCount="2">
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               app:cardElevation="6dp"
+               android:id="@+id/cprofile"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center"
+                   android:padding="16dp">
+                   <ImageView
+                       android:src="@drawable/useric"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"></ImageView>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="12dp"
+                       android:textColor="#6f6f6f"
+                       android:text="Profile"
+                       android:gravity="center"
+                       android:textSize="16sp"
+                       ></TextView>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:id="@+id/cnoti"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center"
+                   android:padding="16dp">
+                   <ImageView
+                       android:src="@drawable/notiic"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"></ImageView>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="12dp"
+                       android:textColor="#6f6f6f"
+                       android:gravity="center"
+                       android:text="Notification"
+                       android:textSize="16sp"
+                       ></TextView>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               android:id="@+id/cadd"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center"
+                   android:padding="16dp">
+                   <ImageView
+                       android:src="@drawable/addic"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"></ImageView>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="12dp"
+                       android:textColor="#6f6f6f"
+                       android:text="Add\nEvents"
+                       android:gravity="center"
+                       android:textSize="16sp"
+                       ></TextView>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               app:cardElevation="6dp"
+               android:id="@+id/cedit"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center"
+                   android:padding="16dp">
+                   <ImageView
+                       android:src="@drawable/updateic"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"></ImageView>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="12dp"
+                       android:textColor="#6f6f6f"
+                       android:text="Edit or\nUpdate"
+                       android:gravity="center"
+                       android:textSize="16sp"
+                       ></TextView>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               app:cardElevation="6dp"
+               android:id="@+id/cview"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center"
+                   android:padding="16dp">
+                   <ImageView
+                       android:src="@drawable/viewic"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"></ImageView>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="12dp"
+                       android:textColor="#6f6f6f"
+                       android:text="View\nEvents"
+                       android:gravity="center"
+                       android:textSize="16sp"
+                       ></TextView>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               android:layout_rowWeight="1"
+               app:cardElevation="6dp"
+               android:id="@+id/cdel"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center"
+                   android:padding="16dp">
+                   <ImageView
+                       android:src="@drawable/deleteic"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"></ImageView>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="12dp"
+                       android:textColor="#6f6f6f"
+                       android:text="Delete\nEvents"
+                       android:gravity="center"
+                       android:textSize="16sp"
+                       ></TextView>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+       </GridLayout>
+   </LinearLayout>
+
+</ScrollView>

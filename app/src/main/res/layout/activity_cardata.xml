@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#64DD17"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    tools:context=".Cardata">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/viewParent.headerText.NoMode"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="Here\nYou Describe\nAbout Your \nCar "
+                    android:textColor="@color/whiteTextColor" />
+
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_login_hero" />
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/whiteTextColor"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputName"
+                        style="@style/parent"
+                        android:layout_marginTop="20dp">
+
+                        <EditText
+                            android:id="@+id/textname"
+                            style="@style/modifiedEditText"
+                            android:hint="Your Name"
+                            android:inputType="textPersonName"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputnumber"
+                        style="@style/parent"
+                        android:layout_marginTop="20dp">
+
+                        <EditText
+                            android:id="@+id/textphone"
+                            style="@style/modifiedEditText"
+                            android:hint="Your Contact Number"
+                            android:inputType="number"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputliecense"
+                        style="@style/parent"
+                        android:layout_marginTop="20dp">
+
+                        <EditText
+                            android:id="@+id/textlie"
+                            style="@style/modifiedEditText"
+                            android:hint="Driving Liesence"
+                            android:inputType="text"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputcarmodel"
+                        style="@style/parent"
+                        android:layout_marginTop="20dp">
+
+                        <EditText
+                            android:id="@+id/textCarmodel"
+                            style="@style/modifiedEditText"
+                            android:hint="Car Model"
+                            android:inputType="text"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputRent"
+                        style="@style/parent"
+                        android:layout_marginTop="20dp">
+
+                        <EditText
+                            android:id="@+id/textrent"
+                            style="@style/modifiedEditText"
+                            android:hint="Rent of Your Car/Day"
+                            android:inputType="number"
+                            android:maxLines="1" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputpic"
+                        style="@style/parent"
+                        android:layout_marginTop="20dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/img"
+                                android:layout_width="140dp"
+                                android:layout_height="100dp"
+                                android:layout_marginLeft="20dp"
+                                app:srcCompat="@drawable/imageicon" />
+
+                            <Button
+                                android:id="@+id/browse"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="60dp"
+                                android:background="@drawable/background_border"
+                                android:layout_gravity="center_vertical"
+                                android:text="Browse" />
+
+                        </LinearLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                        android:id="@+id/btnsend"
+                        style="@style/loginButton"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:text="Send Data"
+                        app:initialCornerAngle="27dp"
+                        app:spinning_bar_color="#FFF"
+                        app:spinning_bar_padding="6dp"
+                        app:spinning_bar_width="4dp" />
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="false"
+        android:id="@+id/backbtn"
+        android:src="@drawable/ic_back_img" />
+</RelativeLayout>
